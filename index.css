@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Montserrat+Alternates:ital,wght@0,300;1,300&family=Montserrat:wght@200;300&family=Open+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Montserrat+Alternates:ital,wght@0,300;1,300&family=Montserrat:wght@200;300&family=Open+Sans:wght@500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg,#153677,#4e085f);
+
+}
+
+#time{
+    display:flex;
+    gap: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.Title{
+    display: flex;
+}
+
+.container{
+    border: 10px fuchsia;
+}
+
+header.clock {
+    position: fixed;
+    font-size: 25px;
+    height: 189px;
+    color: #fff;
+}
